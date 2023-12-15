@@ -59,7 +59,7 @@ public class ArticleApiController {
                 ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
 
     }
-
+zzgit
     @PostMapping("/api/transaction-test")
     public ResponseEntity<List<Article>> transactionTest(@RequestBody List<ArticleForm> dtos) {
         List<Article> createdList = articleService.createArticles(dtos);
