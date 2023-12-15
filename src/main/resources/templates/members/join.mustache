@@ -1,0 +1,20 @@
+
+<!-- navigation-->
+{{>layouts/header}}
+    <form class="container" action="/member/create" method ="post">
+        <div class ="mb-3">
+            <label class="form-label">ID</label>
+            <input type="text" class="form-control" name="mId">
+        </div>
+        <div class ="mb-3">
+            <label class="form-label">Password</label>
+            <input type ="password" class="form-control" name="mPassword">
+        </div>
+        <div class ="mb-3">
+            <label class="form-label">Name</label>
+            <input type ="text" class="form-control" name="mName">
+        </div>
+
+        <button type ="submit">Submit</button>
+
+{{>layouts/footer}}
